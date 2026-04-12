@@ -1,0 +1,106 @@
+{{ define "main" }}
+  {{ $site := hugo.Data.site }}
+  {{ $pubs := hugo.Data.publications }}
+
+  <section class="landing">
+    <div class="shell landing__grid">
+      <div class="landing__copy">
+        <h1>{{ $site.hero_title }}</h1>
+        <p class="landing__role">{{ $site.hero_subtitle }}</p>
+        {{ with $site.journey }}
+          <div class="journey-block">
+            <h2 class="journey-block__title">Academic and Professional Journey</h2>
+            <div class="journey-map">
+              <svg class="journey-map__path" viewBox="0 0 900 330" aria-hidden="true" preserveAspectRatio="none">
+                <path class="journey-map__line journey-map__line--early" d="M 140 58 H 804"></path>
+                <path class="journey-map__line journey-map__line--mid" d="M 804 58 C 854 58 854 165 804 165"></path>
+                <path class="journey-map__line journey-map__line--mid" d="M 804 165 H 96"></path>
+                <path class="journey-map__line journey-map__line--late" d="M 96 165 C 46 165 46 272 96 272"></path>
+                <path class="journey-map__line journey-map__line--late" d="M 96 272 H 760"></path>
+              </svg>
+              <ol class="journey-grid" aria-label="Academic and professional journey">
+                {{ range $index, $item := . }}
+                  <li class="journey-step journey-step--{{ add $index 1 }}">
+                    <a class="logo-chip" href="{{ .url }}" title="{{ .name }}" aria-label="{{ .name }}" target="_blank" rel="noopener noreferrer">
+                      <img class="logo-chip__image" src="{{ .logo }}" alt="">
+                      <span class="sr-only">{{ .name }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ol>
+            </div>
+          </div>
+        {{ end }}
+        <div class="interest-block">
+          <h2 class="interest-block__title">Research Interests</h2>
+          <ul class="interest-list" aria-label="Research interests">
+            {{ range $site.research_interests }}
+              <li class="interest-item">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+      <aside class="profile-column">
+        <div class="profile-panel">
+          <div class="profile-panel__frame">
+            <img class="profile-panel__image" src="/images/profile-2026-soft.png" alt="Portrait of Kartik Anand">
+          </div>
+        </div>
+        <div class="profile-links">
+          <div class="button-row button-row--links">
+            {{ range $site.links }}
+              <a class="button" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <div class="section-heading">
+        <h2>Working Papers</h2>
+      </div>
+      <div class="paper-list">
+        {{ range $index, $item := $pubs.working_papers }}
+          {{ partial "publication-entry.html" (dict "item" $item "section" "working" "index" (add $index 1)) }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{ with $pubs.work_in_progress }}
+    <section class="section section--tight">
+      <div class="shell">
+        <div class="section-break" aria-hidden="true"></div>
+        <div class="section-heading">
+          <h2>Work in Progress</h2>
+        </div>
+        <div class="paper-list">
+          {{ range $index, $item := . }}
+            {{ partial "publication-entry.html" (dict "item" $item "section" "progress" "index" (add $index 1)) }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with $pubs.publications }}
+    <section class="section section--tight">
+      <div class="shell">
+        <div class="section-break" aria-hidden="true"></div>
+        <div class="section-heading">
+          <h2>Publications</h2>
+        </div>
+        <div class="paper-list">
+          {{ range $index, $item := . }}
+            {{ partial "publication-entry.html" (dict "item" $item "section" "selected" "index" (add $index 1)) }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+{{ end }}

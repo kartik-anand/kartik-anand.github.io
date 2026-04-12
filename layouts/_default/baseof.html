@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div class="page-frame">
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>{{ hugo.Data.site.footer.note }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

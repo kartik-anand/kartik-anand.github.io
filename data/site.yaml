@@ -1,0 +1,73 @@
+name: Kartik Anand
+hero_title: Kartik Anand
+hero_subtitle: Senior Economist, Research Centre, Deutsche Bundesbank
+intro: >-
+  I am a Senior Economist in the Research Centre at the Deutsche Bundesbank. I
+  obtained my PhD in Applied Mathematics from the University of London and my BA
+  in Mathematics from Johns Hopkins University.
+research_interests:
+  - Impact of Artificial Intelligence
+  - Cybersecurity
+  - Financial intermediation
+  - Political economy
+journey:
+  - mark: MAIS
+    name: Mallya Aditi International School
+    logo: /images/journey/mais.png
+    url: https://www.aditi.edu.in/
+  - mark: JHU
+    name: Johns Hopkins University
+    logo: /images/journey/jhu.png
+    url: https://www.jhu.edu/
+  - mark: KCL
+    name: King's College London
+    logo: /images/journey/kcl.svg
+    url: https://www.kcl.ac.uk/
+  - mark: UoL
+    name: University of London
+    logo: /images/journey/uol.png
+    url: https://www.london.ac.uk/
+  - mark: ICTP
+    name: ICTP, Trieste
+    logo: /images/journey/ictp.png
+    url: https://www.ictp.it/
+  - mark: TUB
+    name: TU Berlin
+    logo: /images/journey/tub.png
+    url: https://www.tu.berlin/en/
+  - mark: BoC
+    name: Bank of Canada
+    logo: /images/journey/boc.png
+    url: https://www.bankofcanada.ca/
+  - mark: BoE
+    name: Bank of England
+    logo: /images/journey/boe.png
+    url: https://www.bankofengland.co.uk/
+  - mark: BBk
+    name: Deutsche Bundesbank
+    logo: /images/journey/bbk.png
+    url: https://www.bundesbank.de/en
+links:
+  - label: CV
+    url: /papers/cv.pdf
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=obDy3OwAAAAJ&hl=en
+  - label: Photography Portfolio
+    url: https://www.flickr.com/photos/kari_1981/
+contact:
+  title: Contact
+  note: >-
+    The current Wix site shows placeholder contact details and Wix-managed
+    forms. This Hugo version keeps the section but leaves it safe to publish
+    only after you decide which email address, office address, or form provider
+    you want to expose publicly.
+  next_steps:
+    - Add a public email address or institutional profile link.
+    - Connect a lightweight form service such as Formspree if you want a contact form.
+newsletter:
+  title: Mailing List
+  note: >-
+    The Wix mailing-list block depends on Wix services. In Hugo, this can be
+    replaced with Buttondown, Mailchimp, or a simple email-based signup flow.
+footer:
+  note: The views expressed on this website are my own and do not necessarily reflect those of the Deutsche Bundesbank or the Eurosystem.

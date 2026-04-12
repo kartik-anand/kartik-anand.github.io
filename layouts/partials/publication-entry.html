@@ -1,0 +1,68 @@
+{{ $item := .item }}
+{{ $section := .section }}
+{{ $entryIndex := .index }}
+{{ $scratch := newScratch }}
+{{ with $item.links }}
+  {{ $scratch.Set "primary" (index . 0) }}
+  {{ range . }}
+    {{ if in (lower .label) "published" }}
+      {{ $scratch.Set "primary" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $primary := $scratch.Get "primary" }}
+{{ $primaryUrl := "" }}
+{{ with $primary }}
+  {{ $primaryUrl = .url }}
+{{ end }}
+{{ $secondary := slice }}
+{{ with $item.links }}
+  {{ range . }}
+    {{ if ne .url $primaryUrl }}
+      {{ $secondary = $secondary | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<article class="paper-entry">
+  <div class="paper-entry__top">
+    <div class="paper-entry__heading">
+      <div class="paper-entry__title-row">
+        {{ with $entryIndex }}
+          <span class="paper-entry__number">{{ . }}.</span>
+        {{ end }}
+        <h3 class="paper-entry__title">
+          {{ with $primary }}
+            <a class="paper-entry__title-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+              {{ $item.title }}{{ with $item.subtitle }}<span class="paper-entry__subtitle">: {{ . }}</span>{{ end }}
+            </a>
+          {{ else }}
+            {{ $item.title }}{{ with $item.subtitle }}<span class="paper-entry__subtitle">: {{ . }}</span>{{ end }}
+          {{ end }}
+        </h3>
+        {{ with $secondary }}
+          <div class="paper-entry__title-links">
+            {{ range . }}
+              <a class="paper-entry__side-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer">[{{ .label }}]</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+      <div class="paper-entry__meta">
+        {{ with $item.venue }}<span>{{ . }}</span>{{ end }}
+        {{ with $item.authors }}<span>{{ . }}</span>{{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{ with $item.summary }}
+    <details class="abstract-toggle">
+      <summary>
+        <span class="abstract-toggle__marker" aria-hidden="true"></span>
+        <span class="abstract-toggle__label">Abstract</span>
+      </summary>
+      <div class="abstract-toggle__content">
+        <p>{{ . }}</p>
+      </div>
+    </details>
+  {{ end }}
+</article>

@@ -1,0 +1,407 @@
+working_papers:
+  - title: Sovereign risk and financial fragility
+    authors: with Jochen Mankart
+    summary: >-
+      We develop a model of bank risk-taking with strategic sovereign default.
+      Domestic banks invest in real projects and purchase government bonds.
+      While an increase in bond purchases crowds out profitable investments, it
+      improves the government's incentives to repay and therefore lowers its
+      borrowing costs. Banks' portfolio choices are shaped by the level of
+      government debt, which, in turn, influences the correlation between
+      endogenous bank and sovereign default. Since banks fail to account for how
+      their bond purchases influence the government's default incentives, this
+      leads to socially inefficient levels of bond holdings. In particular, when
+      the stock of government debt is high, banks hold too few bonds as they
+      fail to internalize the social value they impart on the government's
+      incentives to repay. Introducing a large exposure limit in such a
+      situation would be detrimental to welfare.
+    links:
+      - label: Download PDF
+        url: /papers/sovereign-risk-financial-fragility.pdf
+
+  - title: "Ex Machina: Financial stability in the age of Artificial Intelligence"
+    authors: with Sophia Kazinnik, Agnese Leonello and Ettore Panetti
+    summary: >-
+      Does artificial intelligence pose a threat to financial stability? This
+      paper develops a simulation-based framework to study how AI agents behave
+      in a mutual-fund redemption game with strategic complementarities and
+      multiple equilibria. Different AI technologies, namely Q-learning
+      algorithms and large language models, generate distinct redemption
+      profiles. QL-investors coordinate among themselves but exhibit a bias
+      toward excessive early redemption that amplifies fund fragility.
+      LLM-investors instead internalize the equilibrium structure of the problem
+      and better align with theoretical predictions. However, their belief
+      heterogeneity weakens coordination, thereby making their redemptions less
+      predictable. Our findings highlight that the design of AI systems is
+      material for financial stability.
+    links:
+      - label: Download PDF
+        url: /papers/ex-machina-financial-stability-ai.pdf
+
+  - title: Bank fragility, lender of last resort, and liquidity regulation
+    authors: with Toni Ahnert and Guillem Ordóñez-Calafi
+    summary: >-
+      We examine how a lender of last resort (LLR) and liquidity regulation jointly shape bank fragility when both liquidity and debt pricing are endogenous. In a global-games model of rollover risk, a bank's ex-ante fragility-the probability of a run-depends on how liquidity choices interact with the pricing of short-term debt. We show that LLR policy on its own can backfire: by reducing incentives to self-insure with liquid reserves, it raises debt burdens and amplifies fragility. Minimum liquidity requirements counteract this effect by strengthening balance-sheet resilience and making central-bank support more targeted. Together, the two instruments deliver greater stability and welfare than either in isolation. The analysis highlights a new micro-prudential role for liquidity regulation-enhancing the social value of the LLR.
+    links:
+      - label: Download PDF
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6262699
+
+  - title: Banking in the presence of climate risk
+    authors: with Natalya Martynova
+    summary: >-
+      We study banks’ portfolio choices in a granular system where physical climate risk is endogenous and deposits are mispriced. Green investments reduce the probability of a climate disaster but yield lower returns than brown ones. Deposit mispricing creates a subsidy whose value depends on both default probability and loss given default. Because green investment lowers default risk but increases losses in the disaster state, the subsidy can make green investments privately attractive—especially for poorly capitalized banks. Capital requirements thus affect two margins: they reduce incentives to make green investments while improving solvency if a disaster occurs. Introducing a Pigouvian carbon tax implements the efficient allocation and enables the prudential regulator to set higher capital requirements focusing on financial resilience.
+    links:
+      - label: Download PDF
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4898760
+
+work_in_progress:
+  - title: Algorithms, limit order books and liquidity 
+    authors: with Jean-Edouard Colliard and Philipp König
+
+
+  - title: The market for vulernabilities 
+    authors: with Chanelle Duley, Prasanna Gai and Philipp König
+    summary: >-
+      Governments procure zero-day vulnerabilities through gray-market brokers to conduct covert cyber operations. We model this market as a mechanism that allocates exploits while generating a strategic intelligence channel: through price signals, governments can obtain (noisy) information about their adversary's offensive capabilities. Governments face a choice between a transparent legal market, which offers cost-efficiency, and a noisy gray market, which offers opacity. The government's legalization decision trades off the ability to obtain better information about the adversary against scrambling the adversary's ability to obtain information about its own capabilities. Governments may incur the gray market's higher cost to preserve the element of surprise through opacity. Gray markets may persist as a Nash equilibrium even when mutual legalization would be Pareto-improving.
+
+  - title: "Deposits as junior claims: Bank advantages in stablecoin issuance"
+    authors: with Chanelle Duley and Prasanna Gai
+    summary: >-
+      Stablecoin issuance is currently dominated by non-bank financial institutions, yet commercial banks are increasingly entering this market. We develop a model showing that banks possess a structural funding advantage over non-banks in stablecoin issuance. Because insured deposits are risk-insensitive, banks can over-collateralize stablecoin reserves at constant marginal cost, engineering perfectly safe instruments. Non-bank issuers, whose liabilities consist exclusively of risk-sensitive claims, cannot replicate this strategy. This advantage persists under current and proposed regulatory frameworks, e.g., MiCAR and the GENIUS Act, which impose minimum but not maximum reserve requirements. Introducing credit risk on loans preserves the bank's incentive for perfect safety, but reveals a fiscal externality: limited liability allows banks to capture loan upside while externalising default losses onto the deposit insurance fund. A utilitarian social planner, accounting for the shadow cost of public funds, therefore prefers a smaller bank-issued stablecoin market than the decentralised equilibrium delivers. This provides a new rationale for regulatory instruments that cap the scale of bank stablecoin issuance.
+
+
+publications:
+  - title: "Multiple equilibria? Don’t panic! A hitchhiker’s guide to global games"
+    venue: Research Handbook of Macroprudential Policy (forthcoming)
+    authors: with Philipp König
+    summary: >-
+      This article provides a practical overview for applying the global games approach to solve models with multiple equilibria that are often used in discussions on financial and macroprudential policies. Global games offer a tractable approach to resolve multiple equilibria by introducing incomplete information, thereby yielding unique equilibrium predictions. The article proceeds along the lines of a simple regime change game with strategic complementarities. Starting from the canonical regime change game with homogeneous players, it extends the discussion to include heterogeneous groups of players and interlinkages across different institutions with different sets of players. These extensions highlight not only how strategic complementarities can amplify fragility across players and institutions but also how heterogeneity and interlinkages affects the design of micro- and macroprudential policy interventions. Finally, the article briefly discusses the application of global games to dynamic coordination games.
+    links:
+      - label: "ungated: BBK"
+        url: https://www.bundesbank.de/en/publications/research/discussion-papers/multiple-equilibria-don-t-panic-a-hitchhiker-s-guide-to-global-games-925536
+      - label: Published
+        url: https://www.e-elgar.com/shop/gbp/research-handbook-of-macroprudential-policy-9781035306206.html
+
+  - title: Cybersecurity and financial stability
+    venue: Review of Finance, 2026
+    authors: with Chanelle Duley and Prasanna Gai
+    summary: >-
+      Cyber risk exposes banks to operational disruptions that can trigger runs.
+      A bank chooses its cybersecurity by trading off protection against attacks
+      with remaining resilient if an attack succeeds. Cybersecurity functions as
+      a risk-management decision: it reduces the bank's exposure to adverse
+      outcomes but entails lower balance-sheet returns. Equilibrium
+      cybersecurity depends on whether failure is driven by insolvency or
+      illiquidity. When failure is insolvency-driven, bank and creditor actions
+      reinforce one another: greater cybersecurity leads to a higher debt
+      burden, which strengthens incentives for protection. When failure is
+      illiquidity-driven, additional cybersecurity lowers the debt burden,
+      eliminating the bank's private risk-return trade-off. Socially optimal
+      cybersecurity differs from the private choice, and corrective instruments
+      must target either the protection or resilience margins. We extend the
+      model to a system-wide environment in which cybersecurity is a public
+      good, highlighting free-riding and the need for targeted regulation.
+    links:
+      - label: ungated
+        url: /papers/cybersecurity-financial-stability-wp.pdf
+      - label: Published
+        url: https://academic.oup.com/rof/advance-article-abstract/doi/10.1093/rof/rfaf079/8471618
+
+  - title: "Leaping into the dark: A model of policy gambles"
+    venue: Journal of Comparative Economics, 2023
+    authors: with Prasanna Gai and Philipp König
+    summary: >-
+      We examine why rational voters support risky policy gambles over a safe
+      status quo, even when such policies are detrimental to welfare. In a model
+      of electoral competition, investors finance domestic projects in exchange
+      for a stake in future output, while voters receive the remaining output.
+      Government policy influences the riskiness of projects' output. However,
+      when investors invest, the incumbent cannot pre-commit to retain the
+      status quo policy into the future. Instead, future policy is determined
+      subsequently in an election where voters can increase their expected
+      output by voting for policy gambles. Our analysis highlights how
+      investors' self-fulfilling beliefs interact with the distribution of
+      output in abandoning the status quo. We argue that institutions that
+      foster political consensus can eliminate the gamble equilibrium and raise
+      welfare.
+    links:
+      - label: "ungated: SSRN"
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3925078
+      - label: Published
+        url: https://www.sciencedirect.com/science/article/pii/S0147596722000877
+
+  - title: Real interest rates, bank borrowing, and fragility
+    venue: Journal of Money, Credit and Banking, 2023
+    authors: with Toni Ahnert and Philipp König
+    summary: >-
+      How do real interest rates affect financial fragility? We study this issue
+      in a model in which bank borrowing is subject to rollover risk. A bank's
+      optimal borrowing trades off the benefit from investing additional funds
+      into profitable assets with the cost of greater risk of a run by bank
+      creditors. Changes in the interest rate affect the price and amount of
+      borrowing, both of which influence bank fragility in opposite directions.
+      The marginal impact of changes to the interest rate on bank fragility
+      depends on the level of the interest rate. Finally, we derive testable
+      implications that may guide future empirical work.
+    links:
+      - label: "ungated: SSRN"
+        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4296729
+      - label: Published
+        url: https://onlinelibrary.wiley.com/doi/abs/10.1111/jmcb.13033
+
+  - title: Asset encumbrance, bank funding and fragility
+    venue: Review of Financial Studies, 2019
+    authors: with Toni Ahnert, Prasanna Gai and James Chapman
+    summary: >-
+      We model asset encumbrance by banks subject to rollover risk and study the
+      consequences for fragility, funding costs, and prudential regulation. A
+      bank's privately optimal encumbrance choice balances the benefit of
+      expanding profitable, yet illiquid, investment funded by cheap long-term
+      senior secured debt, against the cost of greater fragility from runs on
+      unsecured debt. We derive testable implications about encumbrance ratios.
+      The introduction of deposit insurance or wholesale funding guarantees
+      induces excessive encumbrance and fragility. Limits on asset encumbrance
+      or Pigovian taxes eliminate such risk-shifting incentives. Our results
+      shed light on prudential policies currently being pursued in several
+      jurisdictions.
+    links:
+      - label: ungated
+        url: /papers/asset-encumbrance-bank-funding-fragility.pdf
+      - label: Published
+        url: https://academic.oup.com/rfs/article-abstract/32/6/2422/5106041
+
+  - title: Holdout litigation and sovereign debt enforcement
+    venue: Oxford Economic Papers, 2019
+    authors: with Prasanna Gai
+    summary: >-
+      We offer an analytical framework for studying pre-emptive debt exchanges.
+      Countries can tailor a sovereign bankruptcy framework by choosing
+      provisions or haircuts ex ante, but must contend with the market
+      discipline of holdout litigation ex post. Secondary markets play a role in
+      shaping the holdout costs facing the sovereign, and our results suggest
+      that it is optimal to prioritize the rights of holdout creditors during
+      litigation so that they are always paid in full. We clarify how
+      macroeconomic and legal factors influence the choice of haircut. Our model
+      contributes to the debate on sovereign debt restructuring by formalizing
+      Bolton and Skeel's notion of a Designer SDRM.
+    links:
+      - label: "ungated: BBK"
+        url: https://www.bundesbank.de/resource/blob/750096/e9a931e3bee20d10366904e4e8635041/mL/2018-07-13-dkp-21-data.pdf
+      - label: Published
+        url: https://academic.oup.com/oep/article-abstract/71/2/364/5086143
+
+  - title: "Missing links: A global study on uncovering financial network structure from partial data"
+    venue: Journal of Financial Stability, 2018
+    authors: with Iman van Lelyveld, Rodney Garratt, and others
+    summary: >-
+      Capturing financial network linkages and contagion in stress test models
+      are important goals for banking supervisors and central banks responsible
+      for micro- and macroprudential policy. However, granular data on financial
+      networks is often lacking, and instead the networks must be reconstructed
+      from partial data. In this paper, we conduct a horse race of network
+      reconstruction methods using network data obtained from 25 different
+      markets spanning 13 jurisdictions. Our contribution is two-fold: first, we
+      collate and analyze data on a wide range of financial networks. And
+      second, we rank the methods in terms of their ability to reconstruct the
+      structures of links and exposures in networks.
+    links:
+      - label: "ungated: ESRB"
+        url: https://www.esrb.europa.eu/pub/pdf/wp/esrbwp51.en.pdf?9558b750d88a589ea219ea4a1b7f0d0e
+      - label: Published
+        url: https://www.sciencedirect.com/science/article/abs/pii/S1572308917303649
+
+  - title: A structural model for fluctuations in financial markets
+    venue: Physical Review E, 2018
+    authors: with Jonathan Khedair and Reimer Kuhn
+    summary: >-
+      In this paper we provide a comprehensive analysis of a structural model for the dynamics of prices of assets traded in a market which takes the form of an interacting generalization of the geometric Brownian motion model. It is formally equivalent to a model describing the stochastic dynamics of a system of analog neurons, which is expected to exhibit glassy properties and thus many metastable states in a large portion of its parameter space. We perform a generating functional analysis, introducing a slow driving of the dynamics to mimic the effect of slowly varying macroeconomic conditions. Distributions of asset returns over various time separations are evaluated analytically and are found to be fat-tailed in a manner broadly in line with empirical observations. Our model also allows us to identify collective, interaction-mediated properties of pricing distributions and it predicts pricing distributions which are significantly broader than their noninteracting counterparts, if interactions between prices in the model contain a ferromagnetic bias. Using simulations, we are able to substantiate one of the main hypotheses underlying the original modeling, viz., that the phenomenon of volatility clustering can be rationalized in terms of an interplay between the dynamics within metastable states and the dynamics of occasional transitions between them.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/1709.10277
+      - label: Published
+        url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.97.052312
+
+  - title: "Filling in the blanks: Network structure and interbank contagion"
+    venue: Quantitative Finance, 2015
+    authors: with Ben Craig and Goetz von Peter
+    summary: >-
+      The network pattern of financial linkages is important in many areas of
+      banking and finance. Yet, bilateral linkages are often unobserved, and
+      maximum entropy serves as the leading method for estimating counterparty
+      exposures. This paper proposes an efficient alternative that combines
+      information-theoretic arguments with economic incentives to produce more
+      realistic interbank networks that preserve important characteristics of
+      the original interbank market. The method loads the most probable links
+      with the largest exposures consistent with the total lending and borrowing
+      of each bank, yielding networks with minimum density. When used in a
+      stress-testing context, the minimum-density solution overestimates
+      contagion, whereas maximum entropy underestimates it. Using the two
+      benchmarks side-by-side defines a useful range that bounds the cost of
+      contagion in the true interbank network when counterparty exposures are
+      unknown.
+    links:
+      - label: "ungated: BIS"
+        url: https://www.bis.org/publ/work455.htm
+      - label: Published
+        url: https://www.tandfonline.com/doi/abs/10.1080/14697688.2014.968195#.VLwAl8aWHG4
+
+  - title: Entropy distribution and condensation in random networks with a given degree distribution
+    venue: Physical Review E, 2014
+    authors: with Dmitri Krioukov and Ginestra Bianconi
+    summary: >-
+      The entropy of network ensembles characterizes the amount of information encoded in the network structure and can be used to quantify network complexity and the relevance of given structural properties observed in real network datasets with respect to a random hypothesis. In many real networks the degrees of individual nodes are not fixed but change in time, while their statistical properties, such as the degree distribution, are preserved. Here we characterize the distribution of entropy of random networks with given degree sequences, where each degree sequence is drawn randomly from a given degree distribution. We show that the leading term of the entropy of scale-free network ensembles depends only on the network size and average degree and that entropy is self-averaging, meaning that its relative variance vanishes in the thermodynamic limit. We also characterize large fluctuations of entropy that are fully determined by the average degree in the network. Finally, above a certain threshold, large fluctuations of the average degree in the ensemble can lead to condensation, meaning that a single node in a network of size 𝑁 can attract 𝑂⁡(𝑁) links.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/1403.5884
+      - label: Published
+        url: https://doi.org/10.1103/PhysRevE.89.062807
+
+  - title: Guarantees, transparency and the interdependency between sovereign and bank default risk
+    venue: Journal of Banking and Finance, 2014
+    authors: with Philipp König and Frank Heinemann
+    summary: >-
+      Bank debt guarantees have traditionally been viewed as costless measures
+      to prevent bank runs. However, as recent experiences in some European
+      countries have demonstrated, guarantees may link the coordination problems
+      of bank and sovereign creditors and induce a functional interdependence
+      between the likelihoods of a government default and bank illiquidity.
+      Employing a global-game approach, we model this link, showing the
+      existence and uniqueness of the joint equilibrium and derive its
+      comparative statics properties. In equilibrium, the guarantee reduces the
+      probability of a bank run, while it increases the probability of a
+      sovereign default. The latter erodes the guarantee's credibility and thus
+      its effectiveness ex ante. By setting the guarantee optimally, the
+      government balances these two effects in order to minimize expected costs
+      of crises. Our results show that the optimal guarantee has clear-cut
+      welfare gains which are enhanced through policies that promote greater
+      balance sheet transparency.
+    links:
+      - label: "ungated: BOC"
+        url: https://www.bankofcanada.ca/2013/09/working-paper-2013-31/
+      - label: Published
+        url: https://www.sciencedirect.com/science/article/abs/pii/S0378426614000909
+
+  - title: Epidemics of rules, rational negligence and market crashes
+    venue: European Journal of Finance, 2013
+    authors: with Alan Kirman and Matteo Marsili
+    summary: >-
+      Structural changes in an economy or in financial markets can arise as a result of agents adopting rules that appear to be the norm around them. Such rules are adopted by implicit consensus as they turn out to be profitable for individuals. However, as rules develop and spread they may have consequences at the aggregate level which are not anticipated by individuals. To illustrate this, we develop a simple model, motivated by the 2007–2008 crisis in credit derivatives markets. This shows how coordination on simple and apparently profitable rules may weaken regulatory constraints, rendering the whole system more fragile. The rule, in the specific example, consists in deciding not to exercise due diligence in the evaluation of complex credit derivative products, free riding on information and operational costs. We show that such ‘rational negligence’, in the face of deteriorating macro-economic conditions, can bring a market to a sudden collapse.
+    links:
+      - label: "ungated: HAL"
+        url: https://shs.hal.science/halshs-00545144/
+      - label: Published
+        url: https://www.tandfonline.com/doi/full/10.1080/1351847X.2011.601872
+
+  - title: A network model of financial system resilience
+    venue: Journal of Economic Behavior and Organization, 2013
+    authors: with Prasanna Gai, Sujit Kapadia, Matthew Wilison and Simon Brennan
+    summary: >-
+      We examine the role of macroeconomic fluctuations, asset market
+      liquidity, and network structure in determining contagion and aggregate
+      losses in a stylized financial system. Systemic instability is explored in
+      a financial network comprising three distinct, but interconnected, sets of
+      agents: domestic banks, overseas banks, and firms. Calibrating the model
+      to advanced country banking sector data, this preliminary model generates
+      broadly sensible aggregate loss distributions which are bimodal in nature.
+      We demonstrate how systemic crises may occur and analyse how our results
+      are influenced by firesale externalities and the feedback effects from
+      curtailed lending in the macroeconomy. We also illustrate the resilience
+      of our model financial system to stress scenarios with sharply rising
+      corporate default rates and falling asset prices.
+    links:
+      - label: "ungated: BOE"
+        url: https://www.bankofengland.co.uk/working-paper/2012/a-network-model-of-financial-system-resilience
+      - label: Published
+        url: https://www.sciencedirect.com/science/article/abs/pii/S0167268112000868
+
+  - title: Rollover risk, network structure and systemic financial crises
+    venue: Journal of Economic Dynamics and Control, 2012
+    authors: with Prasanna Gai and Matteo Marsili
+    summary: >-
+      The breakdown of short-term funding markets was a key feature of the
+      global financial crisis of 2007 and 2008. Drawing on ideas from global
+      games and network growth, we show how network topology interacts with the
+      funding structure of financial institutions to determine system-wide
+      crises. Bad news about a financial institution can lead others to lose
+      confidence in it and their withdrawals, in turn, trigger problems across
+      the interbank network. Once broken, credit relations take a long time to
+      re-establish as a result of common knowledge of the equilibrium. Our
+      findings shed light on public policy responses during and after the
+      crisis.
+    links:
+      - label: "ungated: TU-Berlin"
+        url: http://sfb649.wiwi.hu-berlin.de/papers/pdf/SFB649DP2011-052.pdf
+      - label: Published
+        url: https://www.sciencedirect.com/science/article/abs/pii/S0165188912000760
+
+  - title: Shannon and von Neumann entropy of random networks with heterogeneous expected degree
+    venue: Physical Review E, 2011
+    authors: with Ginestra Bianconi and Simone Severini
+    summary: >-
+      Entropic measures of complexity are able to quantify the information encoded in complex network structures. Several entropic measures have been proposed in this respect. Here we study the relation between the Shannon entropy and the von Neumann entropy of networks with given expected degree sequence. We find in different examples of network topologies that when the degree distribution contains some heterogeneity, an intriguing correlation emerges between the two entropic quantities. This results seems to suggest that heterogeneity in the expected degree distribution is implying an equivalence between a quantum and a classical description of networks, which respectively corresponds to the von Neumann and the Shannon entropy.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/1011.1565
+      - label: Published
+        url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.83.036109
+
+  - title: Financial complexity and systemic stability in trading markets
+    venue: Lessons from the Financial Crisis, Risk Books, 2010
+    authors: with Matteo Marsili
+    links:
+      - label: Book
+        url: https://www.risk.net/lessons-from-the-financial-crisis/5474496/financial-complexity-and-systemic-stability-in-trading-markets
+
+  - title: Rise and fall of trust networks
+    venue: Progress in Artificial Economics, Lecture Notes in Economics and Mathematical Systems, 2010
+    authors: with Prasanna Gai and Matteo Marsili
+    summary: >-
+      The working of economies relies on trust, with credit markets being a notable example. The evaporation of trust may precipitate the economy from a good to a bad state, with long-lasting and large scale structural changes, witness the 2007/8 global financial crisis. Drawing on insights from the literature on coordination games and network growth, we develop a simple model to clarify how trust breaks down in financial systems. We show how the arrival of bad news about a financial agent can lead others to lose confidence in it and how this, in turn, can spread across the entire system. Our model exhibits hysteresis behavior, suggesting that it takes considerable effort to regain trust once it has been broken, emphasizing the self-reinforcing nature of trust at the systemic level. Although simple, the model provides a plausible account of the credit freeze that followed the global financial crisis of 2007/8.
+    links:
+      - label: Published
+        url: https://link.springer.com/chapter/10.1007/978-3-642-13947-5_7
+
+  - title: Gibbs entropy of network ensembles by cavity methods
+    venue: Physical Review E, 2010
+    authors: with Ginestra Bianconi
+    summary: >-
+      The Gibbs entropy of a microcanonical network ensemble is the logarithm of the number of network configurations compatible with a set of hard constraints. This quantity characterizes the level of order and randomness encoded in features of a given real network. Here, we show how to relate this entropy to large deviations of conjugated canonical ensembles. We derive exact expression for this correspondence using the cavity methods for the configuration model, for the ensembles with constraint degree sequence and community structure and for the ensemble with constraint degree sequence and number of links at a given distance.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/1001.4717
+      - label: Published
+        url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.82.011116
+
+  - title: Entropy measures for networks
+    subtitle: Toward an information theory of complex topologies
+    venue: Physical Review E, 2009
+    authors: with Ginestra Bianconi
+    summary: >-
+      The quantification of the complexity of networks is, today, a fundamental problem in the physics of complex systems. A possible roadmap to solve the problem is via extending key concepts of information theory to networks. In this Rapid Communication we propose how to define the Shannon entropy of a network ensemble and how it relates to the Gibbs and von Neumann entropies of network ensembles. The quantities we introduce here will play a crucial role for the formulation of null models of networks through maximum-entropy arguments and will contribute to inference problems emerging in the field of complex networks.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/0907.1514
+      - label: Published
+        url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.80.045102
+
+  - title: Stability and dynamical properties of material flow systems on random networks
+    venue: European Physical Journal B, 2009
+    authors: with Tobias Galla
+    summary: >-
+      The theory of complex networks and of disordered systems is used to study the stability and dynamical properties of a simple model of material flow networks defined on random graphs. In particular we address instabilities that are characteristic of flow networks in economic, ecological and biological systems. Based on results from random matrix theory, we work out the phase diagram of such systems defined on extensively connected random graphs, and study in detail how the choice of control policies and the network structure affects stability. We also present results for more complex topologies of the underlying graph, focussing on finitely connected Erdös-Réyni graphs, Small-World Networks and Barabási-Albert scale-free networks. Results indicate that variability of input-output matrix elements, and random structures of the underlying graph tend to make the system less stable, while fast price dynamics or strong responsiveness to stock accumulation promote stability.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/0902.2075
+      - label: Published
+        url: https://doi.org/10.1140/epjb/e2009-00106-7
+
+  - title: Phase transition in operational risk
+    venue: Physical Review E, 2007
+    authors: with Reimer Kuhn
+    summary: >-
+      In this paper we explore the functional correlation approach to operational risk. We consider networks with heterogeneous a priori conditional and unconditional failure probability. In the limit of sparse connectivity, self-consistent expressions for the dynamical evolution of order parameters are obtained. Under equilibrium conditions, expressions for the stationary states are also obtained. Consequences of the analytical theory developed are analyzed using phase diagrams. We find coexistence of operational and nonoperational phases, much as in liquid-gas systems. Such systems are susceptible to discontinuous phase transitions from the operational to nonoperational phase via catastrophic breakdown. We find this feature to be robust against variation of the microscopic modeling assumptions.
+    links:
+      - label: "ungated: arXiv"
+        url: https://arxiv.org/abs/physics/0609130
+      - label: Published
+        url: https://doi.org/10.1103/PhysRevE.75.016111

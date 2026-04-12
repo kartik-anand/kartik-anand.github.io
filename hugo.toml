@@ -1,0 +1,17 @@
+baseURL = "https://www.kartikanand.net/"
+languageCode = "en-us"
+title = "Kartik Anand"
+disableKinds = ["RSS", "taxonomy", "term"]
+
+[params]
+description = "Academic website for Kartik Anand."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
