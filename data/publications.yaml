@@ -58,6 +58,9 @@ work_in_progress:
   - title: Algorithms, limit order books and liquidity 
     authors: with Jean-Edouard Colliard and Philipp König
 
+  - title: "Rage against the machine: Assessing the impact of regulations in algorithmically-priced markets"
+    summary: >-
+      This paper studies how market-design rules affect outcomes in algorithmically priced markets. On 1 April 2026, Germany restricted fuel retailers to a single daily price increase, at noon, while allowing price cuts at any time. Although designed as a consumer-protection measure, the rule applied to a market in which retail prices are largely set by algorithmic pricing software. I develop a Q-learning model of alternating price competition to show that such a restriction can unintentionally sustain higher matched prices: by preventing firms from quickly raising prices after an undercut, the rule makes downward deviations less attractive and shifts the learning fixed point away from Edgeworth cycles. The model predicts higher margins, lower within-day price volatility, and tighter competitor price gaps. Using high-frequency German fuel-price data and a time-series RDD around the reform, I find evidence consistent with all three predictions. More broadly, the paper argues that in algorithmic markets, ordinary market-design rules can become de facto AI regulation: by changing the action space and reward environment, they shape the outcomes learned by pricing algorithms.
 
   - title: The market for vulernabilities 
     authors: with Chanelle Duley, Prasanna Gai and Philipp König
