@@ -2,3 +2,9 @@ public/
 resources/_gen/
 .hugo_build.lock
 .DS_Store
+
+# Ad-hoc reference PDFs/screenshots (not site content)
+Domain Portfolio_*.pdf
+Domains _ Wix.com*.pdf
+Screenshot */
+Screenshot *.pdf
