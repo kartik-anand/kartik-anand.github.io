@@ -3,6 +3,14 @@ resources/_gen/
 .hugo_build.lock
 .DS_Store
 
+# Built output at repo root (legacy from branch-based Pages deploy — now built via Actions)
+/CNAME
+/index.html
+/sitemap.xml
+/css/
+/images/
+/papers/
+
 # Ad-hoc reference PDFs/screenshots (not site content)
 Domain Portfolio_*.pdf
 Domains _ Wix.com*.pdf
