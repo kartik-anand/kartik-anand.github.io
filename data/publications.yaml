@@ -128,8 +128,8 @@ publications:
       foster political consensus can eliminate the gamble equilibrium and raise
       welfare.
     links:
-      - label: "ungated: SSRN"
-        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3925078
+      - label: ungated
+        url: /papers/leaping-into-the-dark-policy-gambles.pdf
       - label: Published
         url: https://www.sciencedirect.com/science/article/pii/S0147596722000877
 
@@ -147,8 +147,8 @@ publications:
       depends on the level of the interest rate. Finally, we derive testable
       implications that may guide future empirical work.
     links:
-      - label: "ungated: SSRN"
-        url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4296729
+      - label: ungated
+        url: /papers/real-interest-rates-bank-borrowing-fragility.pdf
       - label: Published
         url: https://onlinelibrary.wiley.com/doi/abs/10.1111/jmcb.13033
 
