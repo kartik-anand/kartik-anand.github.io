@@ -173,7 +173,7 @@ publications:
       - label: Published
         url: https://academic.oup.com/rfs/article-abstract/32/6/2422/5106041
 
-  - title: Holdout litigation and sovereign debt enforcement
+  - title: Pre-emptive sovereign debt restructuring and holdout litigation
     venue: Oxford Economic Papers, 2019
     authors: with Prasanna Gai
     summary: >-
@@ -188,8 +188,8 @@ publications:
       contributes to the debate on sovereign debt restructuring by formalizing
       Bolton and Skeel's notion of a Designer SDRM.
     links:
-      - label: "ungated: BBK"
-        url: https://www.bundesbank.de/resource/blob/750096/e9a931e3bee20d10366904e4e8635041/mL/2018-07-13-dkp-21-data.pdf
+      - label: ungated
+        url: /papers/preemptive-sovereign-debt-restructuring-and-holdout-litigation.pdf
       - label: Published
         url: https://academic.oup.com/oep/article-abstract/71/2/364/5086143
 
