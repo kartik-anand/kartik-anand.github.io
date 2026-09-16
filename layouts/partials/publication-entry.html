@@ -50,6 +50,14 @@
       <div class="paper-entry__meta">
         {{ with $item.venue }}<span>{{ . }}</span>{{ end }}
         {{ with $item.authors }}<span>{{ . }}</span>{{ end }}
+        {{ with $item.last_updated }}
+          {{ $month := string . }}
+          {{ if findRE `^\d{4}-(0[1-9]|1[0-2])$` $month }}
+            <span>Last updated {{ (time.AsTime (printf "%s-01" $month)).Format "January 2006" }}</span>
+          {{ else }}
+            {{ errorf "data/publications.yaml: last_updated for %q is %q, but must be year-month like 2026-09" $item.title $month }}
+          {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>

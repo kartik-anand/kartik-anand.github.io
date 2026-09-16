@@ -39,8 +39,15 @@ Each working-paper entry can contain:
 - `title` required
 - `subtitle` optional
 - `authors` optional
+- `last_updated` optional — year and month as `YYYY-MM`, e.g. `2026-09`
 - `summary` optional
 - `links` optional
+
+Working papers are listed newest first by `last_updated`, and the site shows
+it as "Last updated September 2026". Papers without a `last_updated` appear
+at the end, in the order they are written in the file. Write the date exactly
+as `2026-09` (not `September 2026` or `2026-9`); otherwise the site will not
+build and the error message will name the paper to fix.
 
 Example:
 
@@ -49,6 +56,7 @@ working_papers:
   - title: My New Working Paper
     subtitle: Optional subtitle
     authors: with Coauthor Name
+    last_updated: 2026-09
     summary: >-
       One or more lines describing the paper.
     links:
@@ -61,10 +69,12 @@ To add a working paper:
 1. If you have a local PDF, place it in `static/papers/`.
 2. Add a new `- title: ...` block under `working_papers:`.
 3. Use a URL like `/papers/filename.pdf` for local PDFs.
+4. Set `last_updated` to the month of the current draft.
 
 To update a working paper:
 
 - Edit the fields directly in its existing block.
+- When you post a new draft, change `last_updated` too; the list re-sorts itself.
 
 To delete a working paper:
 

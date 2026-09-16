@@ -1,6 +1,7 @@
 working_papers:
   - title: Sovereign risk and financial fragility
     authors: with Jochen Mankart
+    last_updated: 2024-05
     summary: >-
       We develop a model of bank risk-taking with strategic sovereign default.
       Domestic banks invest in real projects and purchase government bonds.
@@ -19,27 +20,18 @@ working_papers:
       - label: Download PDF
         url: /papers/sovereign-risk-financial-fragility.pdf
 
-  - title: "Ex Machina: Financial stability in the age of Artificial Intelligence"
+  - title: "Ex Machina: Financial stability in the age of AI"
     authors: with Sophia Kazinnik, Agnese Leonello and Ettore Panetti
+    last_updated: 2026-09
     summary: >-
-      Does artificial intelligence pose a threat to financial stability? This
-      paper develops a simulation-based framework to study how AI agents behave
-      in a mutual-fund redemption game with strategic complementarities and
-      multiple equilibria. Different AI technologies, namely Q-learning
-      algorithms and large language models, generate distinct redemption
-      profiles. QL-investors coordinate among themselves but exhibit a bias
-      toward excessive early redemption that amplifies fund fragility.
-      LLM-investors instead internalize the equilibrium structure of the problem
-      and better align with theoretical predictions. However, their belief
-      heterogeneity weakens coordination, thereby making their redemptions less
-      predictable. Our findings highlight that the design of AI systems is
-      material for financial stability.
+      We study two canonical AI decision architectures, namely, reinforcement learning (Q-learning) algorithms, and reasoning-based large language models (LLMs). The setting is a mutual fund redemption model with strategic complementarities and multiple equilibria. Holding the underlying economic environment, payoffs, and incentives fixed, we find that AI architecture shapes aggregate outcomes. Neither architecture consistently selects the efficient equilibrium, leading instead to outcomes characterized by financial fragility. Q-learning investors redeem too much and converge on outcomes that leave them individually worse off. LLM investors, by contrast, fail to coordinate, making individual decisions difficult to predict. The two types of ``misbehavior'' have different underlying mechanisms. Q-learning is driven by a systematic learning bias, while coordination between LLM investors breaks down because they form different beliefs despite receiving the same prompt.
     links:
       - label: Download PDF
         url: /papers/ex-machina-financial-stability-ai.pdf
 
   - title: Bank fragility, lender of last resort, and liquidity regulation
     authors: with Toni Ahnert and Guillem Ordóñez-Calafi
+    last_updated: 2026-06
     summary: >-
       We examine how a lender of last resort (LLR) and liquidity regulation jointly shape bank fragility when both liquidity and debt pricing are endogenous. In a global-games model of rollover risk, a bank's ex-ante fragility-the probability of a run-depends on how liquidity choices interact with the pricing of short-term debt. We show that LLR policy on its own can backfire: by reducing incentives to self-insure with liquid reserves, it raises debt burdens and amplifies fragility. Minimum liquidity requirements counteract this effect by strengthening balance-sheet resilience and making central-bank support more targeted. Together, the two instruments deliver greater stability and welfare than either in isolation. The analysis highlights a new micro-prudential role for liquidity regulation-enhancing the social value of the LLR.
     links:
@@ -48,6 +40,7 @@ working_papers:
 
   - title: Banking in the presence of climate risk
     authors: with Natalya Martynova
+    last_updated: 2024-07
     summary: >-
       We study banks’ portfolio choices in a granular system where physical climate risk is endogenous and deposits are mispriced. Green investments reduce the probability of a climate disaster but yield lower returns than brown ones. Deposit mispricing creates a subsidy whose value depends on both default probability and loss given default. Because green investment lowers default risk but increases losses in the disaster state, the subsidy can make green investments privately attractive—especially for poorly capitalized banks. Capital requirements thus affect two margins: they reduce incentives to make green investments while improving solvency if a disaster occurs. Introducing a Pigouvian carbon tax implements the efficient allocation and enables the prudential regulator to set higher capital requirements focusing on financial resilience.
     links:

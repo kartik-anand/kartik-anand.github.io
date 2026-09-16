@@ -64,7 +64,11 @@
         <h2>Working Papers</h2>
       </div>
       <div class="paper-list">
-        {{ range $index, $item := $pubs.working_papers }}
+        {{/* Newest first by last_updated (YYYY-MM); papers without one keep their order at the end. */}}
+        {{ $dated := where $pubs.working_papers "last_updated" "!=" nil }}
+        {{ $undated := where $pubs.working_papers "last_updated" "==" nil }}
+        {{ $workingPapers := (sort $dated "last_updated" "desc") | append $undated }}
+        {{ range $index, $item := $workingPapers }}
           {{ partial "publication-entry.html" (dict "item" $item "section" "working" "index" (add $index 1)) }}
         {{ end }}
       </div>
